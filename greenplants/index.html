@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		
+		<title> Homepage </title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />	
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />	
+	</head>
+
+	<body>
+		<div id="header">
+
+			<!-- SIGN IN -->
+			<a class="sign-in-link" onclick="document.getElementById( 'sign-in' ).style.display='block'" > SIGN IN</a>
+			<div class="container">
+				<div id="sign-in" class="sign-in" >
+					<span onclick="document.getElementById( 'sign-in' ).style.display='none'" class="close" title="Close Modal" > &times; </span>
+				
+					<form class="sign-in-content" >
+						<div class="container">
+							<img src="icons/avatar.png" alt="Avatar"> <br />
+							<input type="text" placeholder="Username or Email" class="sign-in-input" required/> &nbsp; &nbsp; &nbsp;
+							<input type="password" placeholder="Password" class="sign-in-input" required/> <br /> <br />
+							
+							<button type="submit" class="button"> Login </button>
+							<button type="reset" class="button"> Clear </button> <br />
+							<input type="checkbox" checked="checked" > Keep me signed in
+						</div>
+					
+						<div class="forgot" >
+							Forgot <a href="#"> password? </a>
+							<a href="#" style="color: blue; text-decoration: underline;"> Sign Up </a>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- NAVBAR -->
+
+			<nav class="navbar navbar-default navbar-fixed-top" style="background: white;">
+		    	<div class="container">
+		      		<div class="navbar-header">
+		        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		              	<span class="sr-only">Toggle navigation</span>
+		              	<span class="icon-bar"></span>
+		              	<span class="icon-bar"></span>
+		              	<span class="icon-bar"></span>
+		            	</button>
+		            	<a class="navbar-brand" style="color: Green; font-weight: bold; font-family: candara; font-size: 1.7em;" href="#">Green Plants</a>
+		          	</div>
+		          	<div id="navbar" class="navbar-collapse collapse">
+		            	<ul class="nav navbar-nav navbar-right" style="font-size: 1.3em; font-family: calibri;">
+			              	<li><a href="#header">Home</a></li>
+				            <li><a href="#services">Services</a></li>
+				            <li><a href="#portfolio">Portfolio</a></li>
+				            <li><a href="#about">About</a></li>
+				            <li><a href="#contact">Contact</a></li>
+			            </ul>
+			        </div>
+			    </div>
+			</nav>
+
+			<!-- HEADER JUMBOTRON -->
+
+			<div class="header-jumbotron jumbotron text-center" style="color: #b3b3b3;background: url(img/plants-bg.jpg); background-size: 100% 100%;">
+				<div class="container">
+					<h1 style="font-size: 2.3em; font-weight: bold;">Welcome to <font color="#00cc00">Green Plants.</font></h1>
+					<p style="font-size: 1em; font-weight: bold;">Nature at it's best.</p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- SERVICES -->
+
+		<div class="container" id="services">
+
+			<h1 class="text-center" style="font-family: calibri;"> SERVICES <br><small>we offer exceptional services with complimentary hugs.</small></h1>
+
+			<div class="row">
+
+				<div class="services-list col-md-4 col-sm-12">
+
+										
+
+				</div>
+
+				<div class="col-md-8 col-sm-12 hidden-sm hidden-xs">
+					<img src="img/macbook-pro.png" class="services-bgImg pull-right" />
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- PORTFOLIO -->
+
+		<div class="container" id="portfolio">
+
+			<h1 class="text-center" style="font-family: calibri;"> PORTFOLIO <br><small>fresh portfolio of designs that will keep you wanting more.</small></h1>
+
+			<div class="row">
+
+				<div class="portfolio-buttons col-sm-12" align="center">
+					<button>All</button>
+					<button>Branding</button>
+					<button>Website</button>
+					<button>Print Design</button>
+					<button>Photography</button><br>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic1.jpg">
+					<p class="text-center"><a href="#">PHOTO ALBUM</a><br>
+						<small>Print design</small>
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic2.jpg">
+					<p class="text-center"><a href="#">LUCA THEME</a><br>
+						<small>Web design</small>
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic3.jpg">
+					<p class="text-center"><a href="#">UNI SANS</a><br>
+						<small>Branding</small>
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic4.jpg">
+					<p class="text-center"><a href="#">VINYL RECORD</a><br>
+						<small>Photography</small>
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic5.jpg">
+					<p class="text-center"><a href="#">HIPSTER</a><br>
+						<small>Branding</small>
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img class="thumbnail" src="img/Portfolio-pic6.jpg">
+					<p class="text-center"><a href="#">WINDMILLS</a><br>
+						<small>Photography</small>
+					</p>
+				</div>
+
+			</div>
+			
+		</div>
+
+		<!-- ABOUT -->
+
+		<div class="container" id="about">
+			
+			<h1 class="text-center" style="font-family: calibri;"> ABOUT US <br><small>find out who we are.</small></h1>
+
+			<p>
+				Green-Plants is a Nigerian based agricultural company consisting of specialist products and service businesses.
+				These businesses operates within five key markets and the various sectors that makes up each markets.<br /> <br />
+				 
+				At Green-Plants, We offer a huge selection of plants , tools & equipments, natural herbal medicine, House Decoration Services and
+				learning courses available Service Centers Nationwide.
+				We invest multi-million pounds each year in new products to make sure that you hire reliable, safe and enviromentally friendly
+				equipment incorporating the latest technology.<br /> <br />
+				
+				We also provide provide responsible, flexible and accessible quality services based on our core diagnostic capability,
+				specialist sksills and the deployment of the latest innovative technology.
+				From individual samples to large-scale surveys we operate to quality assured standard.<br><br>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</div>
+
+		<!-- CONTACT -->
+
+		<!-- CONTACT JUMBOTRON -->
+
+		<div class="contact-jumbotron jumbotron text-center" style="background: url(img/section-bg2.jpg); background-size: 100% 100%;">
+
+				<h1 style="font-size: 2.6em; font-weight: bold; color: white; ">LET'S TALK BUSINESS.</h1>
+
+		</div>
+
+		<div class="container" id="contact">
+
+			<div class="row" style="margin-top: 5em;">
+				
+				<div class="contact-address col-md-6 col-sm-6 col-xs-12" style="background: url(img/bg-map.png);">
+
+					<img src="icons/pin.png" height="16px" width="16px" class="pull-left" />
+					<p> ADDRESS: <small>308 Negra Arroyo Lane<br>&nbsp;&nbsp;&nbsp;
+					Albuquerque, New Mexico, 87111.</small> </p><br>
+
+					<img src="icons/phone-call.png"  height="16px" width="16px" class="pull-left" />
+					<p> PHONE: <small>1-800-BOO-YAHH.</small> </p><br>
+
+					<img src="icons/envelope.png" height="16px" width="16px" class="pull-left" />
+					<p> EMAIL: <small>hello@lewisleo.com</small> </p><br>
+
+					<img src="icons/time-hand-drawn-interface-symbol.png" height="16px" width="16px" class="pull-left" />
+					<p> HOURS: <small>Monday - Thursday: 10am - 6pm<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Friday: People work on Fridays now?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Saturday - Sunday: Best not to ask.</small> </p>
+
+					<div style="height: 2em;"></div>
+
+					<a href="#"><img src="icons/twitter.png" height="45px" width="45px" /></a>
+					<a href="#"><img src="icons/facebook.png" height="45px" width="45px" /></a>
+					<a href="#"><img src="icons/pinterest.png" height="45px" width="45px" /></a>
+					<a href="#"><img src="icons/google-plus.png" height="45px" width="45px" /></a>
+					<a href="#"><img src="icons/dribbble.png" height="45px" width="45px" /></a>
+					<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;
+					<font style="color: red; font-size: 25px;"> Get in touch! </font>
+
+				</div>
+
+				<div class="contact-form col-md-6 col-sm-6 col-xs-12">
+					
+					<form>
+						<input type="text" placeholder="Your Name" class="contact-name pull-left" required/>
+						<input type="email" placeholder="Your Email" class="contact-email pull-right" required/><br><br><br>
+						<input type="text" placeholder="Subject" class="contact-subject"/> <br /> <br />
+						<textarea type="text" placeholder="Your Message" class="contact-message" required></textarea> <br /> <br />
+						<input type="submit" class="btn btn-success pull-right" value="Submit">
+					</form>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div style="height: 10em;"></div>
+
+		<script src="js/jquery.min.js" ></script>
+		<script src="js/bootstrap.min.js" ></script>
+	</body>
+
+</html>
